@@ -1,7 +1,7 @@
 Package.describe({
   name: 'kasperrt:accounts-dataporten',
   summary: "Login service for Dataporten accounts",
-  version: "0.1.3",
+  version: "0.1.4",
   git: 'https://github.com/kasperrt/meteor-accounts-dataporten.git',
   documentation: null
 });
