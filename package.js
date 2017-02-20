@@ -1,7 +1,7 @@
 Package.describe({
   name: 'kasperrt:accounts-dataporten',
   summary: "Login service for Dataporten accounts",
-  version: "0.1.7",
+  version: "0.1.8",
   git: 'https://github.com/kasperrt/meteor-accounts-dataporten.git',
   documentation: null
 });
@@ -12,7 +12,7 @@ Package.onUse(function(api) {
   // Export Accounts (etc) to packages using this one.
   api.imply('accounts-base', ['client', 'server']);
   api.use('accounts-oauth', ['client', 'server']);
-  api.use('kasperrt:dataporten@0.1.1', ['client', 'server']);
+  api.use('kasperrt:dataporten@0.1.2', ['client', 'server']);
 
   api.addFiles('dataporten_login_button.css', 'client');
 
